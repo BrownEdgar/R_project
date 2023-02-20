@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.users {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.users_list {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_item {
+  list-style: none;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  position: relative;
+}
+
+.deletebutton {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+}
+
+/* CSS */
+.button-24 {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  aspect-ratio: 1/1;
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+  outline: 0;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button-24:active {
+  opacity: 0.5;
+}
+
+.button-73 {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #adcfff 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #ffc229;
+  box-shadow: #ff6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 10px;
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+}
+
+.button-70 {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #adcfff 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-70:hover {
+  background-color: #29ff54;
+  box-shadow: #bcff14 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-70:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-70 {
+    font-size: 10px;
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+}
+
+.active {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  width: 10px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  background-color: #29ff54;
+}
