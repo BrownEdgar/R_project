@@ -1,0 +1,31 @@
+.Table_Item {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  text-align: start;
+  padding-block: 1.5rem;
+  border-top: 1px solid #e4e5e7;
+  padding-inline: 1rem;
+  &_Info {
+    width: 25%;
+    &:nth-child(3) {
+      margin-left: 1rem;
+    }
+    &:nth-child(5) {
+      background-color: #d82e3f;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      max-width: 100px;
+      padding: 1rem 1.2rem;
+      cursor: pointer;
+      transition: all 400ms ease;
+      &:hover {
+        opacity: 0.8;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transform: scale(1.01);
+      }
+    }
+  }
+}
