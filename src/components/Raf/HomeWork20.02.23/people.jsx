@@ -28,8 +28,8 @@ function PeopleApp(){
         })
         setValue(newPeople)
     }
-    function DeletePeople(e) {
-        const newArrPeop = [...value].filter((elem) => elem.id != e.target.value)
+    function DeletePeople(id) {
+        const newArrPeop = value.filter((elem) => elem.id !== id)
         console.log(newArrPeop)
         setValue(newArrPeop)
     }
@@ -46,7 +46,7 @@ function PeopleApp(){
                         <div key={people.id} className="leftBlock">
                             <h2>{people.name} in ID: {people.id}</h2>
                             <p>{people.year}</p>
-                            <button onClick={DeletePeople} value={people.id}>X</button>
+												<button onClick={() => DeletePeople(people.id)}>X</button>
                             <button onClick={AddProperty}>Add property</button>
                         </div>
                     )

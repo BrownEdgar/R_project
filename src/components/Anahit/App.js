@@ -1,6 +1,9 @@
 
-function App(){
-  const [people, setPeople] = React.useState(
+import React, { useState } from 'react'
+
+
+export default function App(){
+  const [people, setPeople] = useState(
     [
       { id: 1, name: 'Wes', year: 1988 },
       { id: 2, name: 'Kait', year: 1986 },
@@ -13,9 +16,9 @@ function App(){
       setPeople(sorted)
     }
   
-    function Delete(){
-      const deleted = [...people].filter((elem)=>{
-        // elem.id !== (չգիտեմ ինչին)
+    function Delete(id){
+      const deleted = people.filter((elem) =>{
+        return elem.id !== id
       })
       setPeople(deleted)
     }
@@ -23,7 +26,7 @@ function App(){
     function AddNewProperty(){
       const addedProperty = [...people].map((per) =>{
         per["isActive"] = true
-        console.log(per)
+    
         return per
   
       })
@@ -38,11 +41,11 @@ function App(){
             <h2 key = {person.id}> ID:{person.id}</h2>
             <p>Name:{person.name}</p>
             <p>Year: {person.year}</p>
+							<button onClick={() => Delete(person.id)}>DeletByID</button>
             </>
           )
         })}
           <button onClick = {SortByYear}> SortByYear</button>
-          <button onClick = {Delete}>DeletByID</button>
           <button onClick = {AddNewProperty}> NewProperty</button>
   
       </div>

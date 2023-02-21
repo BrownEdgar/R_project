@@ -9,10 +9,10 @@ import PeopleApp from './HomeWork20.02.23/people'
 function App() {
   return (
     <div className="appBlock">
-      <PeopleApp/>
-      {/* <RandomNum/>
+      {/* <PeopleApp/> */}
+      <RandomNum/>
       <ZeroTen/>
-      <AppPerson/> */}
+      <AppPerson/>
     </div>
   );
 }
