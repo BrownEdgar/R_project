@@ -1,0 +1,61 @@
+.Header{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
+	width: 800px;
+	margin: 20px auto;
+	padding: 15px;
+	font-size: 24px;
+	line-height: 24px;
+	border-block: 1px solid black;
+	font-weight: 900;
+	
+}
+
+.Container{
+	margin: 20px auto 0px;
+	width: 800px;
+	border-top: 1px solid black;
+	&-item1{
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
+		padding: 20px;
+		font-size: 24px;
+		line-height: 24px;
+	}
+	&-item2{
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
+		padding: 20px;
+		font-size: 24px;
+		line-height: 24px;
+	}
+	&-item3{
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
+		padding: 20px;
+		font-size: 24px;
+		line-height: 24px;
+	}
+	&-item4{
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
+		padding: 20px;
+		font-size: 24px;
+		line-height: 24px;
+	}
+	&-item5{
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
+		padding: 20px;
+		font-size: 24px;
+		line-height: 24px;
+	}
+	button{
+		cursor: pointer;
+		padding-block: 10px;
+		background-color: #D72F3E;
+		color: white;
+		border: none;
+		border-radius: 7px;
+	}
+}
