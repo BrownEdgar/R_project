@@ -1,14 +1,9 @@
 import React from "react";
 
-export default function SortButton({ users, setUsers }) {
-  function sortByАscending() {
-    const tempArr = [...users].sort(
-      (firstUs, secUs) => firstUs.year - secUs.year
-    );
-    setUsers(tempArr);
-  }
+export default function SortButton({  sortByАscending }) {
+
   return (
-    <button className="button-73" onClick={sortByАscending}>
+		<button className="button-73" onClick={sortByАscending}>
       Sort by Аscending
     </button>
   );
