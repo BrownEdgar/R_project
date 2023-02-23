@@ -1,6 +1,7 @@
 .Table {
   width: 100%;
   min-width: 950px;
+
   &_Head {
     display: flex;
     flex-flow: row nowrap;
@@ -9,6 +10,7 @@
     border-block: 1px solid #e4e5e7;
     padding-inline: 1rem 19rem;
   }
+
   &_Titles {
     font-size: 18px;
     font-weight: 800;

@@ -15,7 +15,6 @@ function Container({ arr, func }) {
 	function deleteFilm(idFilm) {
 		const newFilms = arr.filter((elem) => {
 			return elem.id !== idFilm
-
 		})
 		func(newFilms)
 	}
@@ -79,6 +78,7 @@ function App() {
 			rate: 3.5,
 		},
 	])
+	
 	return (
 		<div>
 			<Header />
