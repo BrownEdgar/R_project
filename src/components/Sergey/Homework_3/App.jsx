@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Table from "./Components/Table";
 import "./App.scss";
-document.title = "Homework_3";
+
 function App() {
   const [info, setInfo] = useState([
     {
