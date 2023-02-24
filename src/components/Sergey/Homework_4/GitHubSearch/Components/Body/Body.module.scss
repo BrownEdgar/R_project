@@ -1,0 +1,142 @@
+.Body {
+  width: 100%;
+  min-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 2rem;
+
+  &_Wrapper {
+    width: 80%;
+    min-width: 300px;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    padding: 2rem;
+    background-color: var(--color-ui-base);
+    border-radius: var(--brd-rad);
+    box-shadow: var(--shadow);
+  }
+
+  &_Image {
+    width: 20%;
+    min-width: 100px;
+    height: 100%;
+
+    img {
+      box-shadow: var(--shadow);
+      width: 100%;
+      aspect-ratio: 1/1;
+      min-width: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+      box-shadow: var(--shadow);
+    }
+  }
+
+  &_Info {
+    width: 78%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    padding-inline: 1rem;
+
+    &_Row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    &_Name {
+      font-size: var(--fs-xl);
+      font-weight: var(--fw-bold);
+    }
+
+    &_Date {
+      font-size: var(--fs-lg);
+    }
+  }
+
+  &_Nickname {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-normal);
+    color: #0a5cbb;
+  }
+
+  &_Link {
+    text-decoration: none;
+    color: #0a5cbb;
+  }
+
+  &_Follow {
+    width: 100%;
+    min-width: 230px;
+    height: 10vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-bg);
+    border-radius: var(--brd-rad);
+  }
+
+  &_Contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    &_Wrapper {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    &_Contact {
+      grid-template-columns: 1fr;
+    }
+
+    &_Wrapper {
+      height: 66vh;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &_Info {
+      width: 90%;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+      gap: 1vh;
+
+      &_Row {
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+.Follow_Info {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.Follow_Count {
+  font-weight: var(--fw-bold);
+}
+
+.Contact_Block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.Contact_Text {
+  font-weight: var(--fw-bold);
+}
