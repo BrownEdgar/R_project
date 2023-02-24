@@ -1,0 +1,58 @@
+.Search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &_Form {
+    width: 80%;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-block: 1.5vh;
+    padding-inline: 1rem;
+    background-color: var(--color-ui-base);
+    border-radius: var(--brd-rad);
+    box-shadow: var(--shadow);
+  }
+
+  &_Icon {
+    font-size: var(--fs-lg);
+    color: #0765cf;
+    cursor: pointer;
+  }
+
+  &_Input {
+    width: 80%;
+    background-color: transparent;
+    color: var(--color-text);
+    font-size: var(--fs-md);
+    border: none;
+
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+  &_Button {
+    padding: 1rem 1.5rem;
+    color: #fff;
+    font-weight: var(--fw-light);
+    border: none;
+    border-radius: var(--brd-rad);
+    background-color: #017bff;
+    cursor: pointer;
+    transition: opacity 200ms ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  @media only screen and (max-width: 1050px) {
+    &_Form {
+      width: 100%;
+    }
+  }
+}
