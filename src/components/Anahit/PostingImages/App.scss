@@ -1,0 +1,43 @@
+.Box{
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; 
+    padding:1rem;
+    text-align: center;
+
+    &-Title{
+        margin-bottom: 10px;
+        color:rgb(167, 195, 250)
+    }
+    
+    &-Image{
+        position:relative;
+        width: 100px;
+        height: 100px;
+    }
+
+    &-Description{
+        line-height: 1.6;
+        text-align: "justify";
+        margin-top: 12px;
+        font-size: 16px;
+        padding: 1rem;
+
+        &_dark{
+            background-color: #222;
+            color: #fff;
+        }
+        &_light{
+            background-color: #f3f3f3;
+            color: #222;
+        }
+
+    }
+    
+    &-Btn {
+        padding: 1rem;
+        margin: 16px;
+        font-weight: 700;
+        cursor: pointer
+    }
+}
