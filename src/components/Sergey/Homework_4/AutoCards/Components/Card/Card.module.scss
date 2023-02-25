@@ -1,6 +1,5 @@
 .Card {
   width: 30%;
-  height: 40vh;
   border: 1px solid lightgray;
   border-radius: 15px;
   overflow: hidden;
@@ -10,7 +9,7 @@
 
   &_ImgBox {
     width: 100%;
-    height: 20vh;
+   
   }
 
   &_Img {
@@ -23,6 +22,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+		padding: 0.5rem;
     gap: 10px;
   }
 }
