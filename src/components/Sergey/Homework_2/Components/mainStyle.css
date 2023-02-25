@@ -12,10 +12,10 @@
 .users_list {
   width: 80%;
   display: flex;
-  justify-content: space-between;
 }
 
 .list_item {
+	margin: 20px;
   list-style: none;
   padding: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,

@@ -15,7 +15,7 @@ export default function App() {
       return (
       <div>
         <h1> User Info</h1>
-        {/* <p>{data}</p> */}
+        
          <pre>
           {
             JSON.stringify(data, null, 1)
