@@ -1,58 +1,25 @@
-.Merc {
-    width: 400px;
-    margin: 50px auto;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    padding:1rem;
-    text-align: center;
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 
-    &-Title{
-        margin-bottom: 10px;
-        color:rgb(167, 195, 250)
-    }
-    
-    &-Image{
-        position:relative;
-        width: 50px;
-        height: 50px;
-    }
+	&_item {
+		flex: 0 0 30%;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px;
+		padding: 1rem;
 
+		img {
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+		}
+	}
 }
 
-.Audi{
-    width: 400px;
-    margin: 50px auto;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    padding:1rem;
-    text-align: center;
-
-    &-Title{
-        margin-bottom: 10px;
-        color:rgb(167, 195, 250)
-    }
-    
-    &-Image{
-        position:relative;
-        width: 50px;
-        height: 50px;
-    }
-
-    .BMW{
-        width: 400px;
-        margin: 50px auto;
-        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-        padding:1rem;
-        text-align: center;
-    
-        &-Title{
-            margin-bottom: 10px;
-            color:rgb(167, 195, 250)
-        }
-        
-        &-Image{
-            position:relative;
-            width: 50px;
-            height: 50px;
-        }
-    }
-
+.Title {
+	margin-bottom: 10px;
+	color: rgb(16, 89, 236)
+}
+.Price {
+	font-size: 30px;
 }
