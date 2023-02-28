@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.scss";
 import Body from "./Components/Body/Body";
-import Header from "./Components/Header/Header";
+import Header from "./Components/Header/Header0";
 import Search from "./Components/Search/Search";
 
 function App() {
