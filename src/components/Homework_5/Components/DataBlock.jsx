@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from "prop-types"
 
 export default function DataBlock({ data }) {
 	return (
@@ -8,7 +9,10 @@ export default function DataBlock({ data }) {
 			color: "green",
 			backgroundColor: "black",
 			margin: "20px auto",
-			borderRadius: "20px"
+			borderRadius: "20px",
+			overflow: "hidden"
 		}}>{JSON.stringify(data, null, 1)}</pre>
 	)
 }
+
+DataBlock.propTypes = PropTypes.object.isRequired
