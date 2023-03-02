@@ -15,4 +15,6 @@ export default function DataBlock({ data }) {
 	)
 }
 
-DataBlock.propTypes = PropTypes.object.isRequired
+DataBlock.propTypes = {
+	data: PropTypes.object
+}
