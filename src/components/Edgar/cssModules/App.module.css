@@ -1,0 +1,13 @@
+.box {
+	width: 400px;
+	height: 300px;
+	background-color: #111;
+	padding: 1rem;
+	color: #fff;
+}
+
+h3 {
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #ff0542;
+}

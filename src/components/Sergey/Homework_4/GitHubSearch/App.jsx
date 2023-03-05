@@ -14,14 +14,14 @@ function App() {
       .then((data) => setData(data));
   }, [username]);
 
-  function SearchUser(user) {
+  function searchUser(user) {
     return setUsername(user);
   }
 
   return (
     <main className="container">
       <Header />
-      <Search Search={SearchUser} />
+			<Search search={searchUser} />
       <Body data={data} />
     </main>
   );
