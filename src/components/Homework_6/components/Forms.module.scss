@@ -1,0 +1,75 @@
+.Container {
+	width: 50%;
+	min-width: 400px;
+	padding: 2rem 2rem;
+	background-color: #222222;
+	color: whitesmoke;
+	font-family: cursive;
+	margin: 50px auto;
+	border-radius: 8px;
+
+	&_Title {
+		font-size: 32px;
+		margin-bottom: 20px;
+		font-weight: 600;
+		letter-spacing: 2px;
+	}
+
+	&_Form {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		gap: 20px;
+	}
+
+	&_Input {
+		border: none;
+		outline: none;
+		font-size: 18px;
+		padding: 1rem 0.5rem;
+		border-radius: 8px;
+		font-family: cursive;
+		background-color: #2d3538;
+		color: whitesmoke;
+	}
+
+	&_Link {
+		text-decoration: none;
+		color: whitesmoke;
+		font-weight: 700;
+		letter-spacing: 1.5px;
+	}
+
+	&_Buttons {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	&_SignIn {
+		border: none;
+		border-radius: 8px;
+		width: 49%;
+		padding: 1rem;
+		font-family: cursive;
+		font-size: 18px;
+		font-weight: 700;
+		cursor: pointer;
+		background-color: #59c6f9;
+		color: #2e3639;
+
+	}
+
+	&_SignUp {
+		border: none;
+		border-radius: 8px;
+		width: 49%;
+		padding: 1rem;
+		font-family: cursive;
+		font-size: 18px;
+		font-weight: 700;
+		cursor: pointer;
+		background-color: #2e3639;
+		color: whitesmoke;
+	}
+}
