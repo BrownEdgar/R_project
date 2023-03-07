@@ -1,12 +1,14 @@
-.container{
-	width: 40%;
+.container {
+	width: 60%;
 	margin: 20px auto;
 	padding: 1rem;
 	min-width: 340px;
 	border: 1px solid #000;
+
 	form {
 		background-color: #111;
 		padding: 1rem;
+
 		div {
 			display: flex;
 			justify-content: center;
@@ -15,7 +17,9 @@
 			width: 80%;
 			padding: 0 15px;
 			margin: 0 auto;
-			input, select {
+
+			input,
+			select {
 				background-color: #e5e5e5;
 				border: 0;
 				border-radius: 6px;
@@ -24,6 +28,7 @@
 				padding: 12px;
 				font-size: 22px;
 			}
+
 			label {
 				font-size: 22px;
 				color: #fff;
@@ -32,12 +37,14 @@
 				font-variant: small-caps;
 				letter-spacing: 2px;
 			}
+
 			input[type="submit"] {
 				background-color: rgb(134, 206, 134);
 				font-weight: 700;
 				cursor: pointer;
 			}
-			.error{
+
+			.error {
 				display: inline;
 				padding: px 12px;
 				font-size: 14px;
