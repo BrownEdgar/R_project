@@ -62,22 +62,4 @@ export default function App() {
 
     // }
   
-    useEffect(() =>{
-      console.log("fetch data")
-     fetch('https://jsonplaceholder.typicode.com/todos')
-     .then(response => response.json())
-     .then(data => setData(data))
-     
-    },[])
-
-    return (
-    <div>
-      <h1> Fetch Data</h1>
-       <pre>
-        {
-          JSON.stringify(data, null, 1)
-        }
-      </pre> 
-    </div>
-  )
-}
+    
