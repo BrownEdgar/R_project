@@ -1,0 +1,46 @@
+.container{
+    position: absolute;
+    width: 50%;
+    margin: 20 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    min-width: 340px;
+    form{
+        background-color: #111;
+        padding: 1rem;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 80%;
+            padding: 0 15px;
+            margin: 0 auto;
+            input , select{
+                background-color: #d4e0e9;
+                border: 0;
+                border-radius: 7px;
+                width: 100%;
+                margin: 10px 0;
+                padding: 10px;
+                font-size: 22px;
+            }
+            .error{
+                font-size: 14px;
+                display: inline;
+                color: red;
+            }
+            label{
+                font-size: 22px;
+                color: #fff;
+                margin-bottom: 6px;
+                text-align: left;
+                font-variant: small-caps;
+                letter-spacing: 2px;
+            }
+            input[type="submit"]{
+                background-color: #79d18c;
+            }
+        }
+    }
+}

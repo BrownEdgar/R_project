@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #222222 ;
+    text-align: center;
+    width: 40%;
+    margin: 15px auto;
+    border-radius: 8px;
+    padding: 1rem;
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+   
+    color:#f9f9f9 ;
+    padding: 10px 7px;
+}
+h3{
+    color:#f9f9f9 ;
+}
+input{
+    width: 70%;
+    background-color: #2e3639;
+    color: #89919e;
+    padding: 10px 7px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    margin: 10px 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+}
+.registration{
+    background-color: #2e3639;
+    color: #fff;
+}
+.come{
+    background-color: #5ac8fb;
+}

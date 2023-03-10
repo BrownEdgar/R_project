@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import UserData from './components/UserData';
-
+// import './App.scss'
 export default function App() {
     const [users,setUsers] = useState([{}])
     const [count, setCount] = useState(0);
