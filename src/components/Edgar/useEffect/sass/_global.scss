@@ -9,6 +9,8 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1;
+	max-width: 1140px;
+	margin: 20px auto;
 }
 
 a {
@@ -23,6 +25,15 @@ ul {
 button {
 	border: 0;
 	outline: 0;
+	padding: 13px 23px;
+	border-radius: 3px;
+	margin: 20px;
+	cursor: pointer;
+	border: 2px darkcyan dotted;
+}
+
+button:disabled {
+	cursor: no-drop;
 }
 
 input:focus {
